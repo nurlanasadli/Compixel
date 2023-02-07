@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.modalBackground {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(31, 22, 22, 0.719);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+.LoginModal {
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  text-align: center;
+  background: #e8610b;
+  background: -webkit-linear-gradient(top left, #e8610b, #eda116);
+  background: -moz-linear-gradient(top left, #e8610b, #eda116);
+  background: linear-gradient(to bottom right, #e8610b, #eda116);
+}
+.closeBtnDiv {
+  display: flex;
+  justify-content: flex-end !important;
+}
+.closeBTN {
+  width: 50px;
+  height: 50px;
+  border: 0;
+  background-color: transparent;
+  font-size: 25px;
+  cursor: pointer;
+}
+.LogInput input {
+  margin-bottom: 2rem;
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+}
+.LogTitle {
+  font-size: 20px;
+  letter-spacing: 0.05rem;
+  margin-bottom: 2rem;
+}
+.LogButton {
+  margin-bottom: 2rem;
+}
+.LogButton > button {
+  font-size: 20px;
+  padding: 7px 30px;
+  border-radius: 7px;
+  background: #728db6;
+  background: -webkit-linear-gradient(top left, #728db6, #e68408);
+  background: -moz-linear-gradient(top left, #728db6, #e68408);
+  background: linear-gradient(to bottom right, #728db6, #e68408);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.LogButton > button:hover{
+  color: #000;
+}
+.fb_google {
+  display: flex;
+  flex-direction: column;
+}
+.fb_google a {
+  margin-bottom: 1.7rem;
+  border: 3px solid gray;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.fb_google a:hover {
+  transform: scale(1.035);
+}
+.fb_google .fb {
+  background-color: #405a93;
+  color: #fff;
+  font-size: 20px;
+  padding: 8px 0;
+  border-radius: 12px;
+}
+.fb_google .google {
+  background-color: #fff;
+  color: #000;
+  font-size: 20px;
+  padding: 8px 0;
+  border-radius: 12px;
+}

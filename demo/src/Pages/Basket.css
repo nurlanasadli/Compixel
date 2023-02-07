@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.basketContainer {
+  width: calc(100% - 355px);
+  background-color: teal;
+}
+.basketProducts {
+  width: 100%;
+  height: fit-content;
+  /* border: 5px solid blue; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 2px solid red;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.basketItem{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  justify-content: space-evenly;
+}
+.basketImg{
+  width: 170px;
+  height: 150px;
+}
+.basketImg img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.basketName{
+  /* border: 1px solid red; */
+  width: 40%;
+  text-align: center;
+  /* margin: 0 2rem; */
+}
+.basketName p{
+  font-size: 25px;
+}
+
+.basketQty{
+  /* border: 2px solid orange; */
+  display: flex;
+  align-items: center;
+}
+.basketQty span{
+  font-size: 25px;
+  color: #fff;
+  /* overflow: hidden; */
+  cursor: pointer;
+}
+.qty{
+  font-size: 25px;
+  background-color: lightgray;
+  padding: 5px 15px;
+  border-radius: 50%;
+  font-weight: bolder;
+  margin: 0 10px;
+}
+.plus i{
+  background-color: green;
+  border-radius: 50%;
+}
+.minus i{
+  background-color: red;
+  border-radius: 50%;
+}
+.basketPrice{
+  /* margin: 0 3rem; */
+  font-size: 30px;
+}
+
+.trash{
+  font-size: 30px;
+  color: darkred;
+  cursor: pointer;
+}
